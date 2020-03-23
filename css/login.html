@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login In</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/fontawesome-free-5.12.1-web/css/all.css">
+
+</head>
+<style>
+    form {
+        margin: 0 auto;
+        margin-top: 80px;
+
+    }
+
+    section .form-h {
+        text-align: center;
+        margin-top: 150px;
+        font-weight: bolder;
+    }
+
+    form {
+        position: absolute;
+        width:1140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        margin: 10px;
+        width: 30%;
+        height: 5vh;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        padding: 5px;
+    }
+
+    input[type="submit"] {
+        margin: 20px;
+        width: 31%;
+        height: 5vh;
+        border-radius: 1px;
+        background-color: #1A3212;
+        box-shadow: none;
+        margin-top: 2px;
+        color:#fff;
+        text-transform: uppercase;
+
+    }
+
+    /* #53980c */
+
+    input[type="submit"]:hover,
+    input[type="submit"]:active {
+        background-color: rgb(48, 87, 35);
+        box-shadow: none;
+
+
+    }
+
+    input[type=checkbox] {
+        margin: 10px 0 10px 0;
+    }
+    label {
+        font-size: 12px;
+    }
+
+    /* fonts */
+    .fa-user-circle {
+        color: #1A3212;
+        
+    }
+
+</style>
+<body>
+    <!-- <nav>
+        <div class="navbar">
+                <ul>
+                    <li><a class="nav" href="#">Home</a></li>
+                    <li><a href="#">Services</a></li> 
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </div>
+    </nav> -->
+
+        <section>
+            <div class="form-h"> 
+                <h1>Login</h1>
+                <i class="fas fa-user-circle fa-2x"></i>
+            </div>
+            
+            <div class="form-label"> 
+                <form>
+                        <!-- <label for="mail">Email</label><br> -->
+                        <input type="email" name="name" id="mail" placeholder="Email" required>
+                        <br>
+                        <!-- <label for="pwd">Password</label><br> -->
+                        <input type="password" name="name" id="pwd" placeholder="Password" required>
+                        <br>
+                        <div class="checkbox">
+                            <label><input type="checkbox" name="remember" checked> Remember me</label>
+                          </div>
+                        <br>
+                        <input type="submit" value="Submit">
+                </form>
+            </div>
+
+        </section>
+    
+</nav>
+
+    
+</body>
+</html>
