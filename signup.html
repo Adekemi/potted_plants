@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/fonts/fontawesome-free-5.12.1-web/css/all.css">
+    
 
     <style>
         form {
@@ -25,7 +25,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            text-align: center;
+            text-align: center;    
             
         }
     
@@ -34,7 +34,7 @@
         input[type="password"] {
             width: 30%;
             height: 5vh;
-            margin: 15px;
+            margin: 5px;
             border: 1px solid #ccc;
             border-radius: 1px;
             padding: 5px;
@@ -42,13 +42,15 @@
         }
     
         input[type="submit"] {
-            margin: 20px;
+
             width: 31%;
             height: 5vh;
             border-radius: 1px;
             background-color: #1A3212;
             box-shadow: none;
-            margin-top: 2px;
+            border-width: 0;
+            color: #fff;
+            text-transform: uppercase;
     
         }
     
@@ -57,6 +59,15 @@
             background-color: rgb(48, 87, 35);
             box-shadow: none;
     
+        }
+
+        /* Already signed in */
+
+        form p {
+            font-size: 12px;
+        }
+        form p a {
+            color:#1A3212;
         }
     
         
@@ -90,19 +101,25 @@
             <div class="form-h"> 
                 <h1>Sign Up</h1>
                 <i class="fas fa-user-circle fa-2x"></i>
+               
             </div>
             <form class="form-label">
-                <label for="fname">First Name:</label><br>
-                <input type="text" name="name" id="fname" placeholder="First name" required>
+                <label for="fname"></label><br>
+                <input type="text" name="name" id="fname" placeholder="Name" required>
                 <br>
-                <label for="lname">Last Name:</label><br>
+                <!-- <label for="lname"></label><br>
                 <input type="text" name="name" id="lname" placeholder="Last name" required>
-                <br>
-                <label for="mail">Email:</label><br>
+                <br> -->
+                <label for="mail"></label><br>
                 <input type="email" name="name" id="mail" placeholder="Email" required>
                 <br>
-                <label for="pwd">Password:</label><br>
+                <label for="pwd"></label><br>
                 <input type="password" name="name" id="pwd" placeholder="Password" required>
+                <br>
+                <label for="cpwd"></label><br>
+                <input type="password" name="name" id="cpwd" placeholder="Confirm Password" required>
+                <br>
+                <p>Already signed up? <a href="login.html">Login</a></p>
                 <br>
                 <input type="submit" value="Submit">
             </form>
@@ -111,6 +128,6 @@
     
 </nav>
 
-    
+<script defer src="fonts/fontawesome-free-5.12.1-web/js/all.js"></script>
 </body>
 </html>
