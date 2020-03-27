@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 100px;
+            
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            margin: 5px;
+            width: 20%;
+            height: 3vh;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            padding: 15px;
+        }
+
+    
+        #subject {
+            width: 43%;
+        }
+
+        #textarea {
+            margin: 5px;
+            width: 43%;
+            height: 20vh;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            padding: 15px;
+
+        }
+
+        .contact-button {
+            margin: 5px;
+            width: 46%;
+            height: 8vh;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            padding: 5px;
+            border-width: 0;
+            background-color: #53980c;
+            font-size: 15px;
+            color: #fff;
+        }
+
+        .contact-button:hover,
+        .contact-button:active {
+            background-color: #7fc23c;
+            
+        }
+
+
+
+</style>
+<body>
+    <div class="info">
+        <h2>Get in Touch</h2>
+    </div>
+    <form>
+        <div class="container">
+            <div>
+                <input type="text" placeholder="Full Name" >
+                <input type="email" placeholder="Email" >
+            </div>
+            <br>
+            <div>
+                <input id="subject" type="text" placeholder="Subject" >
+            </div>
+            <br>
+            <div>
+                <textarea name="" id="textarea" cols="30" placeholder="Message" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <button class="contact-button" type="submit">Send Message</button>
+            </div>
+        </div>
+    </form>
+
+
+    
+
+    
+</body>
+</html>

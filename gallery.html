@@ -13,9 +13,9 @@
     }
 
     h2 {
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
     }
 
     h2:after {
@@ -28,21 +28,28 @@
         margin-top: 30px;
     }
 
-    #container-3 {
-        width: 1200px;
-        min-height: 100px;
-        margin: 0 auto;
-        display:flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
+    img {
+        width: 350px;
+        height: 200px;
+        margin: 10px;
+        transition: all 1s;
     }
 
-    .box {
-        width: 300px;
-        height: 300px;
-        margin: 20px;
-        opacity: 1;
+    img:hover {
+        transform: scale(1.1);
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+
+    /* Button */
+    .back-btn {
+       position: fixed;
+       top: 400px;
     }
 
     .back-btn a {
@@ -63,6 +70,7 @@
     button:hover,
     button:active {
         background-color: #7fc23c;
+        outline: 0;
     }
 
 </style>
@@ -74,80 +82,25 @@
             <!-- <br>
             <button>Fade Effect</button> -->
         </div>
-            <div id="container-3">
-                <div id="img-4" class="box">
-                    <img src="img/plant-1081856_640.jpg" width="100%">
-                </div>
-
-                <div id="img-5" class="box">
-                    <img src="img/orchids-595242_640.jpg" width="100%">
-                </div>
-
-                <div id="img-6" class="box">
-                    <img src="img/fleshy-in-this-2571789_640.jpg" width="100%">
-                </div>
-           
-                <div id="img-1" class="box">
-                    <img src="img/art-artistic-beautiful-bloom-311458.jpg" width="100%">
-                </div>
-
-                <div id="img-2" class="box">
-                    <img src="img/table-869379_640.jpg" width="100%">
-                </div>
-
-                <div id="img-3" class="box">
-                    <img src="img/green-snake-plant-on-white-ceramic-pot-1445416.jpg" width="100%">
-                </div>
-
-                <div id="img-7" class="box">
-                    <img src="img/pots.jpg" width="100%">
-                </div>
-
-                <div id="img-8" class="box">
-                    <img src="img/sapling-154734_640.png" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/variety-of-green-leafed-plants-3209811.jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/three-potted-cactus-plants-1903965 (1).jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/green-potted-plant-on-white-ceramic-vase-1166644.jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/photo-of-indoor-plants-1982095.jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/bg-2.jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/potted-green-indoor-plants-3076899.jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/above-ground-photo-of-succulent-plants-on-brown-wooden-board-1470168.jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/photo-of-green-leaf-potted-plants-on-window-and-stand-930004.jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/two-green-succulent-plants-in-white-ceramic-pots-1877878.jpg" width="100%">
-                </div>
-
-                <div id="img-9" class="box">
-                    <img src="img/green-plants-on-white-wooden-table-2096017.jpg" width="100%">
-                </div>
-
-                <br>
+            <div class="container">
+                <img src="img/plant-1081856_640.jpg" >
+                <img src="img/orchids-595242_640.jpg" >
+                <img src="img/fleshy-in-this-2571789_640.jpg" >
+                <img src="img/art-artistic-beautiful-bloom-311458.jpg" >
+                <img src="img/table-869379_640.jpg">
+                <img src="img/green-snake-plant-on-white-ceramic-pot-1445416.jpg">
+                <img src="img/pots.jpg" >
+                <img src="img/sapling-154734_640.png" >
+                <img src="img/variety-of-green-leafed-plants-3209811.jpg" >
+                <img src="img/three-potted-cactus-plants-1903965 (1).jpg" >
+                <img src="img/green-potted-plant-on-white-ceramic-vase-1166644.jpg" >
+                <img src="img/photo-of-indoor-plants-1982095.jpg" >
+                <img src="img/bg-2.jpg" >
+                <img src="img/potted-green-indoor-plants-3076899.jpg" >
+                <img src="img/above-ground-photo-of-succulent-plants-on-brown-wooden-board-1470168.jpg" >
+                <img src="img/white-blank-notebook-733857.jpg" >
+                <img src="img/plant-828714_1280.jpg" >
+                <img src="img/cactus-1842095_640.jpg" >
             </div>
     </section>
 
